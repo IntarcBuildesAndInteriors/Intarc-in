@@ -515,6 +515,8 @@
 	padding: 50px 0px 20px;
 	border-top: 1px solid rgba(0,0,0,0.15);
 	border-bottom: 1px solid rgba(0,0,0,0.15);
+	background: black;
+	margin-bottom: 20px;
 }
 
 .marketing-one.style-two{
@@ -532,13 +534,14 @@
 	font-weight: 800;
 	display: inline-block;
 	text-transform: uppercase;
-	color: var(--color-four);
+	/* color: var(--color-four); */
+	color: white;
 }
 
 .marketing-one h1.light{
 	color: transparent;
 	-webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(10,10,10, 1);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
 .marketing-one .marketing-one_icon{
