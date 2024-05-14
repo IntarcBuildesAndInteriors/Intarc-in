@@ -618,6 +618,7 @@ ul {
     -webkit-transition: all 0.3s ease-in 0.3s;
     -o-transition: all 0.3s ease-in 0.3s;
     transition: all 0.3s ease-in 0.3s;
+    background: black;
 }
 .xs-sidebar-group.isActive .sidebar-widget-container {
     -webkit-transition: all 1s ease-out 1.2s;
