@@ -654,6 +654,9 @@
 	.error-section h1{
 		font-size: 200px;
 	}
+	.bottom-contact-div{
+		justify-content: center;
+	}
 
 }
 
