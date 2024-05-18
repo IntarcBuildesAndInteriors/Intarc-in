@@ -178,13 +178,17 @@
 	transition-delay: 500ms;
 	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
+.welcome-heading{
+	color: var(--main-color);
+	padding-bottom: 15px;
+}
 
 .slider-one_text{
 	position: relative;
 	line-height: 30px;
 	font-weight: 400;
 	font-size: 16px;
-	padding-top: 70px;
+	/* padding-top: 70px; */
 	color: var(--white-color);
 
 	transition:all 900ms ease;
