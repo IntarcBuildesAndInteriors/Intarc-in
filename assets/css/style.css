@@ -4423,6 +4423,7 @@
 .service-detail{
 	position: relative;
 	padding: 110px 0px 110px;
+	background-color: black;
 }
 
 .service-detail_content-column{
@@ -4452,11 +4453,10 @@
 	width: 140px;
 	height: 160px;
 	padding: 30px 25px;
-	background-color: var(--main-color);
 }
 
 .feature-block_icon img{
-	filter: invert(100%);
+	/* filter: invert(100%); */
 }
 
 .feature-block h3{
@@ -4494,11 +4494,12 @@
 	height: 620px;
 	border-radius: 50%;
 	background: #FFE6AF;
-    background: linear-gradient(to right, #FFE6AF 0%, #ebb542 100%);
+    background: linear-gradient(to right, #000 0%, #666 232%);
 }
 
 .service-detail p{
 	margin-bottom: 30px;
+	color: #dbdada;
 }
 
 .service-detail_list{
@@ -4511,7 +4512,7 @@
 	font-size: 16px;
 	padding-left: 30px;
 	margin-bottom: 15px;
-	color: var(--color-two);
+	color: rgb(197, 197, 197);
 }
 
 .service-detail_list li::before{
@@ -4539,6 +4540,7 @@
 .service-detail h3{
 	position: relative;
 	margin-bottom: 25px;
+	color: white;
 }
 
 .service-detail_video{
@@ -8543,7 +8545,7 @@
 
 .bottom-contact-btn:hover{
 	color: var(--white-color);
-	background: linear-gradient(0deg,rgb(0, 0, 0) 0%, rgb(185, 185, 185) 100%);
+	background: linear-gradient(0deg,rgb(0, 0, 0) 0%, rgb(16, 163, 4) 100%);
 }
 
 .welcome-heading{
