@@ -8536,8 +8536,8 @@
 }
 
 .bottom-contact-btn{
-	width: 327px;
-	height: 65px;
+	width: 210px;
+  	height: 55px;
 	background: linear-gradient(0deg,rgb(0, 0, 0) 0%, rgb(106, 72, 0) 100%);
 	color: #fff;
 	padding: 13px 10px;
@@ -8550,7 +8550,7 @@
 
 .bottom-contact-btn:hover{
 	color: var(--white-color);
-	background: linear-gradient(0deg,rgb(0, 0, 0) 0%, rgb(16, 163, 4) 100%);
+	background: linear-gradient(0deg,rgb(0, 0, 0) 0%, rgb(163, 111, 1) 100%);
 }
 
 .welcome-heading{
