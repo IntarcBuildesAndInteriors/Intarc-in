@@ -736,7 +736,7 @@ img{
 	line-height:28px; 
 	font-size:16px;
 	margin-top:20px;
-    color:var(--color-two);
+    color:rgb(172, 172, 172);
 }
 
 .sec-title.light .sec-title_text,
