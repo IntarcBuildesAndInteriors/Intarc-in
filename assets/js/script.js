@@ -29,6 +29,31 @@
 	}
 	
 	headerStyle();
+
+	function checkViewportSize() {
+		const width = window.innerWidth;
+		var siteHeader = $('.main-header');
+		var scrollLink = $('.scroll-to-top');
+	  
+		if (width < 768) {
+		  // Mobile view
+		  siteHeader.addClass('fixed-header');
+		  scrollLink.fadeIn(300);
+		}
+		else {
+		  // Desktop view
+		  $(window).on('scroll', function() {
+			headerStyle();
+		});
+		}
+	  }
+	  
+	  // Initial check
+	  checkViewportSize();
+	  
+	  // Check size on window resize
+	  window.addEventListener('resize', checkViewportSize);
+	  
 	
 	
 	//Submenu Dropdown Toggle
@@ -1105,9 +1130,7 @@
    When document is Scrollig, do
    ========================================================================== */
 	
-	$(window).on('scroll', function() {
-		headerStyle();
-	});
+	
 	
 /* ==========================================================================
    When document is loading, do
