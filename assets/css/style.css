@@ -6117,6 +6117,7 @@
 	position:relative;
 	text-align:center;
 	padding:110px 0px 80px;
+	background-color: black;
 }
 
 .error-section .content{
@@ -6127,17 +6128,18 @@
 	line-height:1em;
 	font-size:340px;
 	font-weight:700;
-	color:rgba(var(--black-color-rgb), 0.15);
+	color: rgba(255, 255, 255, 0.25);
 }
 
 .error-section h2{
 	margin-top:10px;
+	color: #c7c7c7;
 }
 
 .error-section .text{
 	line-height:1.8em;
 	font-size:16px;
-	color:var(--color-four);
+	color:rgb(179, 179, 179);
 	margin-top:35px;
 }
 
