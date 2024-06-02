@@ -3031,6 +3031,7 @@
 .welcome-three{
 	position: relative;
 	padding: 110px 0px 80px;
+	background-color: #040404;
 }
 
 .welcome-three_content-column{
@@ -3077,6 +3078,7 @@
 	margin-top: 20px;
 	font-weight: 500;
 	margin-bottom: 30px;
+	color: white;
 }
 
 .welcome-three_list{
@@ -3089,7 +3091,8 @@
 	font-size: 16px;
 	padding-left: 30px;
 	margin-bottom: 15px;
-	color: var(--color-two);
+	color:rgb(183, 183, 183);
+
 }
 
 .welcome-three_list li::before{
@@ -3113,7 +3116,7 @@
 	font-weight: 700;
 	font-size: 27px;
 	margin-top: 20px;
-	color: var(--black-color);
+	color: rgb(202, 202, 202);
 }
 
 .welcome-three_author span{
@@ -3152,7 +3155,7 @@
 	height: 660px;
 	border-radius: 50%;
 	background: #FFE6AF;
-    background: linear-gradient(to right, #FFE6AF 0%, #ebb542 100%);
+    background: linear-gradient(to right, #050505 0%, #1b1b1b 100%);
 }
 
 /*** 
@@ -3165,6 +3168,7 @@
 
 .counter-one{
 	position: relative;
+	background-color: #040404;
 }
 
 .counter-one_counter-column{
@@ -3174,13 +3178,12 @@
 
 .counter-one_counter-count{
 	position: relative;
-	padding: 40px 40px;
-	font-size: 130px;
-	font-weight: 800;
-	color: transparent;
-	-webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(34,34,34, 1);
-	border: 1px solid rgba(0,0,0,0.15);
+  padding: 40px 40px;
+  font-size: 130px;
+  font-weight: 800;
+  color: #e8e8e8;
+  -webkit-text-stroke-color: rgba(34,34,34, 1);
+  border: 1px solid rgba(0,0,0,0.15);
 }
 
 .counter-one_counter-count sup{
@@ -3197,7 +3200,7 @@
 	margin-top: -5px;
 	line-height: 1em;
 	font-weight: 600;
-	color: var(--black-color);
+	color: rgb(106, 106, 106);
 	text-transform: capitalize;
 }
 
