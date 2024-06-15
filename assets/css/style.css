@@ -4932,6 +4932,7 @@
 ***/
 
 .testimonial-four{
+	background-color: black;
 	position: relative;
 	overflow: hidden;
 	padding: 110px 0px 100px;
@@ -4945,8 +4946,9 @@
 .testimonial-block_three-inner{
 	position:relative;
 	padding:35px 35px;
-	background-color:var(--white-color);
+	background-color:rgb(6, 6, 6);
 	box-shadow:0px 0px 15px rgba(0,0,0,0.07);
+	min-height: 365px;
 }
 
 .testimonial-block_three-inner:before{
@@ -5005,7 +5007,7 @@
 
 .testimonial-block_three-rating{
 	position:relative;
-	color:var(--color-two);
+	color:rgb(232, 158, 0);
 }
 
 .testimonial-block_three-designation{
@@ -5017,14 +5019,14 @@
 }
 
 .testimonial-block_three-heading{
-	color:var(--black-color);
+	color:var(--white-color);
 	margin-top:5px;
 }
 
 .testimonial-block_three-text{
 	position:relative;
 	line-height:30px;
-	color:var(--color-three);
+	color:rgb(233, 233, 233);
 	font-size:16px;
 	margin-top:20px;
 }
