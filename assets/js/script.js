@@ -1147,9 +1147,14 @@
 	const enquiryParent = document.getElementById('enquiry-parent')
 
 	function enquiryClose (){
-		enquiryParent.style.display = 'none'
+		enquiryParent.style.animation = "moveToClose 1s forwards"
+		setTimeout(() => {
+			enquiryParent.style.display = 'none'
+		}, 1000);
 
 	}
 	function enquiryOpen (){
+		enquiryParent.style.animation = "moveToCenter 2s forwards"
 		enquiryParent.style.display = 'flex'
+
 	}
