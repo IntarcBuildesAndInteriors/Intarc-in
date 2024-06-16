@@ -709,6 +709,7 @@
 
 
 
+
 	var Testimonial_nav = new Swiper(".testimonial__nav_two", {
 		loop: false,
 		spaceBetween: 0,
@@ -1141,3 +1142,14 @@
 	});	
 
 })(window.jQuery);
+
+	// const enquiryClose = document.getElementById('enquiry-close')
+	const enquiryParent = document.getElementById('enquiry-parent')
+
+	function enquiryClose (){
+		enquiryParent.style.display = 'none'
+
+	}
+	function enquiryOpen (){
+		enquiryParent.style.display = 'flex'
+	}
