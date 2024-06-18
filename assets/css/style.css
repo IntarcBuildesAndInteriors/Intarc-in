@@ -8681,14 +8681,6 @@
 	/* height:100%; */
 	padding-bottom:30px;
 }
-.color-trigger i {
-    color: #ffffff;
-    font-size: 30px;
-    line-height: 40px;
-	font-weight: 800;
-	transition: 10ms;
-
-}
 .right-enquiry{
 	background-color: #fefefe; 
 	padding: 25px 20px;
@@ -8711,10 +8703,9 @@
 	width: 100%;
 	height: 100vh;
 	position: fixed;
-	z-index: 99;
+	z-index: 90;
 	display: flex;
 	justify-content: end;
-	
 }
 .top-sidebar{
 	width: 150px;
@@ -8734,23 +8725,83 @@
 	padding: 10px 10px;
   	font-size: xx-large;
 }
-.whatsapp-div{
-	color: green;
-	background: #28e50e1a;
-  	border-radius: 39px;
-  	padding: 6px;
-  	font-weight: 900;
-}
-.call-div{
-	color: white;
-}
-.call-div:hover{
-	color: green;
-}
+
 .free-estimate{
 	margin-top: 210px;
 	background: #a973000f;
 	border-radius: 4px;
 	padding: 10px 15px;
 	color: white;
+}
+
+
+
+.whatsapp-fixed-parent{
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  right: 8px;
+  text-align: center;
+  top: 30%;
+  z-index: 999;
+  font-size: xx-large;
+  background: transparent;
+}
+.whatsapp-div{
+	color: white;
+	background: #28e50e2e;
+	border-radius: 39px;
+	padding: 6px;
+	font-weight: 900;
+}
+.whatsapp-div:hover{
+	color: #fff;
+	background: transparent;
+}
+
+/* call div fixed  */
+
+.call-fixed-parent{
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  right: 8px;
+  text-align: center;
+  top: 40%;
+  z-index: 999;
+  font-size: xx-large;
+  background: transparent;
+}
+.call-div{
+	color: white;
+	background: #a9730073;
+	padding: 6px;
+	font-weight: 900;
+	font-size: smaller;
+	border-radius: 24px;
+}
+.call-div:hover{
+	color: #fff;
+	background: transparent;
+}
+
+/* FREE estimate */
+
+.estimate-fixed-parent{
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  right: 8px;
+  text-align: center;
+  top: 49%;
+  z-index: 999;
+  background: transparent;
+}
+.estimate-div{
+  color: white;
+  background: #a9730073;
+  padding: 6px 0px;
+  font-size: small;
+  border-radius: 8px;
+}
+.estimate-div:hover{
+	color: #fff;
+	background: transparent;
 }
