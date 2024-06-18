@@ -8571,7 +8571,7 @@
 	height: 100vh;
 	background-color: rgba(9, 8, 8, 0.52);
 	position: fixed;
-	z-index: 100;
+	z-index: 1000;
 	display: none;
 	justify-content: center;
 	align-items: center;
@@ -8618,16 +8618,22 @@
 }
 .input-list>input{
 	padding: 10px;
-    margin: 15px 30px;
-    height: 48px;
-    border-radius: 10px;
-    background: #d0d0d0;
+	margin: 15px 30px;
+	height: 43px;
+	border-radius: 10px;
+	background: #fff;
+	border:solid #0000001f .5px;
+}
+.input-list>label{
+	padding: 0px 32px;
+  	color: #0000007d;
 }
 .input-list>textarea{
 	padding: 10px;
     margin: 15px 30px;
     border-radius: 10px;
-    background: #d0d0d0;
+    background: #fff;
+	border:solid #0000001f .5px;
 }
 .input-list>button{
 		border-radius: 20px;
@@ -8636,7 +8642,7 @@
 		color: #FFFFFF;
 		font-size: 12px;
 		font-weight: bold;
-		padding: 20px 45px;
+		padding: 10px 53px;
 		letter-spacing: 1px;
 		text-transform: uppercase;
 		transition: transform 80ms ease-in;

@@ -31,7 +31,7 @@
 	<div class="enquiry-parent" id="enquiry-parent">
 		<div class="enquiry-child">
 			<div class="row">
-				<div class="col-md-6 left-enquiry">
+				<div class="col-lg-6 left-enquiry">
 					<div class="left-enquiry-text">
 						<h3>Let's Chat</h3>
       					<p>Whether you have a question, want to start a project or            simply want to connect.</p>
@@ -39,15 +39,22 @@
         				<p>Feel free to send me a message in the contact form</p>
 					</div>
 				</div>
-				<div class="col-md-6 right-enquiry" >
+				<div class="col-lg-6 right-enquiry" >
+					<div>
+						<span class="fa fa-phone-square"></span><a class="contact-link-a" href="tel:+91 980 934 4411" style="color: black;"> +91 980 934 4411</a>
+						<span class="fa fa-envelope"></span><a class="contact-link-a" href="mailto:intarcinteriors@gmail.com" style="color: black;">intarcinteriors@gmail.com</a>
+					</div>
 					<div class="enquiry-close-button">
 						<span class="fa-solid fa-xmark fa-fw" onclick="enquiryClose()" id="enquiry-close" style="color: black; margin: 20px 18px;"></span>
 					</div>
-					<h3 style="text-align: center;">Contact</h3>
+					
+					<h3 style="text-align: center;">Free Estimate</h3>
 					<form action="" class="input-list">
 						<input type="text" name="Name"  placeholder="Name" required>
 						<input type="email" name="Email_Id" placeholder="Email" required>
 						<input type="tel" name="phone_number"  placeholder="Phone Number" required>
+						<label for="file">upload images</label>
+						<input type="file" title="Choose a video please" name="images" accept="image/png, image/jpeg"  >
 						<textarea name="Message" rows="2" placeholder="Message"></textarea>
 						<button>submit</button>
 					</form>
