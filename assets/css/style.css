@@ -8809,3 +8809,36 @@
 	color: #fff;
 	background: transparent;
 }
+
+
+
+
+.mobile-bottom-fixed-parent {
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	height: 76px;
+	bottom: 0;
+	display: none;
+  	justify-content: space-around;
+	padding: 10px;
+	border-radius: 15px 15px 0px 0px;
+}
+.mobile-bottom-fixed-parent>a{
+	color: black;
+	display: grid;
+  	text-align: center;
+	font-size: xx-large;
+}
+.mobile-bottom-fixed-parent>a>span{
+	color: black;
+	font-size: 12px;
+	font-family: var(--font-family-Anybody);
+}
+
+@media only screen and (max-width: 768px){
+	.mobile-bottom-fixed-parent{
+		display: flex;
+	}	
+}
