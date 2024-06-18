@@ -8659,7 +8659,11 @@
 	display: flex;
 	align-items: center;
 }
-.left-enquiry-text>h3,p{
+.left-enquiry-text>h3{
+	color: #fff;
+	text-align: center;
+}
+.left-enquiry-text>p{
 	color: #fff;
 	text-align: center;
 }
