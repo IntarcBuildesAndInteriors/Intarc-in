@@ -3373,6 +3373,7 @@
 	position: relative;
 	font-weight: 700;
 	margin-top: 12px;
+	color: black;
 }
 
 .project-block_three-heading a{
@@ -8818,6 +8819,7 @@
 	border-radius: 4px;
 	padding: 10px 15px;
 	color: white;
+	
 }
 
 
@@ -8827,7 +8829,7 @@
   position: fixed;
   right: 8px;
   text-align: center;
-  top: 30%;
+  top: 40%;
   z-index: 19;
   font-size: xx-large;
   background: transparent;
@@ -8847,14 +8849,14 @@
 /* call div fixed  */
 
 .call-fixed-parent{
-  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  right: 8px;
-  text-align: center;
-  top: 40%;
-  z-index: 19;
-  font-size: xx-large;
-  background: transparent;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	right: 8px;
+	text-align: center;
+	top: 30%;
+	z-index: 19;
+	font-size: xx-large;
+	background: transparent;
 }
 .call-div{
 	color: white;
@@ -8872,24 +8874,29 @@
 /* FREE estimate */
 
 .estimate-fixed-parent{
-  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  right: 8px;
-  text-align: center;
-  top: 49%;
-  z-index: 19;
-  background: transparent;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	right: 8px;
+	text-align: center;
+	top: 52%;
+	z-index: 19;
+	background: transparent;
 }
 .estimate-div{
-  color: white;
-  background: #a9730073;
-  padding: 6px 0px;
-  font-size: small;
-  border-radius: 8px;
+	color: white;
+	background: #a9730073;
+	padding: 11px 7px;
+	font-size: small;
+	border-radius: 8px;
 }
 .estimate-div:hover{
 	color: #fff;
-	background: transparent;
+	background: #a97400af;
+}
+.free-vertical-text{
+	writing-mode: sideways-lr;
+    text-orientation: upright;
+	text-transform: uppercase;
 }
 
 
