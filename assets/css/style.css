@@ -8905,3 +8905,32 @@
   .card-title{
 	color: var(--main-color);
   }
+
+  .top-of-mobile-bottom {
+	position: fixed;
+	z-index: 19;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	height: 70px;
+	bottom: 10%;
+  	justify-content: space-around;
+	padding: 10px;
+	border-radius: 15px 15px 0px 0px;
+	background-color: transparent;
+	text-align: center;
+	display: none;
+	
+}
+.top-of-mobile-bottom>a{
+	background: white;
+	color: black;
+	margin: 0px 16px;
+	padding: 11px 20px;
+	font-size: medium;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.top-of-mobile-bottom>a:hover{
+	color: var(--main-color);
+	background-color: #181818;
+}

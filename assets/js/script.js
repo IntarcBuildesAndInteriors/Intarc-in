@@ -1158,3 +1158,22 @@
 		enquiryParent.style.display = 'flex'
 
 	}
+
+
+	// for bottom service
+	
+	const fixeBottomNav = document.getElementById('fixeBottomNav')
+	const mobileBottomButton = document.getElementById('top-of-mobile-bottom')
+
+	try {
+		fixeBottomNav.addEventListener('mousemove', (e) => {
+			mobileBottomButton.style.display = 'block'
+
+			setTimeout(() => {
+				mobileBottomButton.style.display = 'none'
+			}, 5000);
+		});
+		
+	} catch (error) {
+		
+	}
