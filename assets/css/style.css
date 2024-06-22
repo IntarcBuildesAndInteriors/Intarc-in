@@ -8752,7 +8752,7 @@
   right: 8px;
   text-align: center;
   top: 30%;
-  z-index: 999;
+  z-index: 19;
   font-size: xx-large;
   background: transparent;
 }
@@ -8776,7 +8776,7 @@
   right: 8px;
   text-align: center;
   top: 40%;
-  z-index: 999;
+  z-index: 19;
   font-size: xx-large;
   background: transparent;
 }
@@ -8801,7 +8801,7 @@
   right: 8px;
   text-align: center;
   top: 49%;
-  z-index: 999;
+  z-index: 19;
   background: transparent;
 }
 .estimate-div{
@@ -8821,7 +8821,7 @@
 
 .mobile-bottom-fixed-parent {
 	position: fixed;
-	z-index: 999;
+	z-index: 19;
 	width: 100%;
 	background-color: rgb(255, 255, 255);
 	height: 76px;
