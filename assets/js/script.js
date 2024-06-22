@@ -1161,11 +1161,10 @@
 
 
 	// for bottom service
-	
-	const fixeBottomNav = document.getElementById('fixeBottomNav')
-	const mobileBottomButton = document.getElementById('top-of-mobile-bottom')
 
 	try {
+		const fixeBottomNav = document.getElementById('fixeBottomNav')
+		const mobileBottomButton = document.getElementById('top-of-mobile-bottom')
 		fixeBottomNav.addEventListener('mousemove', (e) => {
 			mobileBottomButton.style.display = 'block'
 
