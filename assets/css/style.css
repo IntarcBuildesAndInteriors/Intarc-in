@@ -8584,11 +8584,11 @@
 .side-bar-contact>a{
 	color: var(--main-color);
 	text-align: center;
-	padding: 5px 0px;
+	padding: 10px 60px;
 	
 }
 .side-bar-contact>a:hover{
-	color: var(--main-color);
+	color: var(--white-color);
 	text-decoration: underline;
 }
 
@@ -8597,7 +8597,7 @@
 .sidebar-links-bottom{
 	display: flex;
   	justify-content: center;
-	padding: 0px 0px 90px 0px;
+	padding: 0px 0px 30px 0px;
 }
 .sidebar-links-bottom>a{
 	color: var(--white-color);
@@ -8743,7 +8743,7 @@
 	display: flex;
 	align-items: center;
 }
-.left-enquiry-text .h3{
+.left-enquiry-text>h3{
 	color: #fff;
 	text-align: center;
 }
