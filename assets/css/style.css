@@ -1932,7 +1932,7 @@
 	font-size: 16px;
 	padding-left: 30px;
 	margin-bottom: 15px;
-	color: var(--color-two);
+	color: rgb(204, 204, 204)
 }
 
 .welcome-two_list li::before{
@@ -9020,4 +9020,10 @@
 .top-of-mobile-bottom>a:hover{
 	color: var(--main-color);
 	background-color: #181818;
+}
+.about-address-links{
+	color: white;
+}
+.about-address-links:hover{
+	color: var(--main-color);
 }
