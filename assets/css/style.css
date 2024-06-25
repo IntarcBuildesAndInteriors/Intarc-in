@@ -780,8 +780,12 @@
 .services-one{
 	position: relative;
 	overflow: hidden;
-	padding: 100px 0px 80px;
+	padding: 0px 0px 80px;
 	/* background-color: #090909; */
+}
+.about-p{
+	font-size: 17px;
+  	line-height: 26px;
 }
 
 .services-one .inner-container{
