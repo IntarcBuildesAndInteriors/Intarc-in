@@ -1,9 +1,7 @@
-.loader {
+/* .loader {
   border-radius: 50%;
   height: 4em;
   width: 4em;
-
-  // center
   margin: auto;
   position: absolute;
   top: 0;
@@ -19,4 +17,4 @@
   to {
     box-shadow: .5em 0;
   }
-}
+} */
