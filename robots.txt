@@ -1,3 +1,3 @@
 User-agent: *
 Disallow: 
-Sitemap: http://www.intarcbuilders.com/sitemap.xml
+Sitemap: http://www.intarcbuilders.in/sitemap.xml
